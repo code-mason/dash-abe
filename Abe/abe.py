@@ -41,11 +41,11 @@ __version__ = version.__version__
 
 ABE_APPNAME = "Abe"
 ABE_VERSION = __version__
-ABE_URL = 'https://github.com/bitcoin-abe/bitcoin-abe'
+ABE_URL = 'https://codemason.xyz'
 
-COPYRIGHT_YEARS = '2011'
-COPYRIGHT = "Abe developers"
-COPYRIGHT_URL = 'https://github.com/bitcoin-abe'
+COPYRIGHT_YEARS = '2019'
+COPYRIGHT = "Codemason developers"
+COPYRIGHT_URL = 'https://codemason.xyz'
 
 DONATIONS_BTC = '1PWC7PNHL1SgvZaN7xEtygenKjWobWsCuf'
 DONATIONS_NMC = 'NJ3MSELK1cWnqUa6xhF2wUYAnz3RSrWXcK'
@@ -73,13 +73,13 @@ DEFAULT_TEMPLATE = """
 <div class="row">
 <div class="col-lg-12">
     <h1><a href="%(dotdot)s%(HOMEPAGE)s"><img
-     src="%(dotdot)s%(STATIC_PATH)slogo32.png" alt="Dash logo" /></a>
+     src="%(dotdot)s%(STATIC_PATH)slogo32.png" alt="Codemason logo" /></a>
     </h1>
     %(body)s
     <p><a href="%(dotdot)sq">API</a> (machine-readable pages)</p>
     <p style="font-size: smaller">
         <span style="font-style: italic">
-            Dash Explorer powered by <a href="%(ABE_URL)s">%(APPNAME)s</a>.
+            Codemason Explorer powered by <a href="%(ABE_URL)s">%(APPNAME)s</a>.
         </span>
         %(download)s
         <a href="%(dotdot)saddress/%(DONATIONS_DASH)s">Donate</a> some coins, if you like it.
