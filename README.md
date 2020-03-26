@@ -16,6 +16,15 @@ Abe draws inspiration from Bitcoin Block Explorer (BBE) and
 BlockChain.info and seeks some level of compatibility with them but
 uses a completely new implementation.
 
+Depends
+------------
+dash_hash module:
+
+    https://github.com/dashpay/dash_hash
+
+install:
+    python setup.py install
+
 Installation
 ------------
 

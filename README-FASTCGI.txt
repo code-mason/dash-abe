@@ -57,6 +57,24 @@ Create file /etc/apache2/sites-available/abe with these contents:
         #CustomLog /var/log/abe_access.log combined
     </VirtualHost>
 
+    ```
+    <VirtualHost *:80>
+        ServerName test_explorer.codemason.xyz
+        Alias /static/ /usr/local/lib/python2.7/dist-packages/Abe/htdocs/
+        Alias /robots.txt /usr/local/lib/python2.7/dist-packages/Abe/htdocs/robots.txt
+        Alias /favicon.ico /usr/local/lib/python2.7/dist-packages/Abe/htdocs/favicon.ico
+        Alias / /usr/lib/cgi-bin/abe.fcgi/
+
+        # Raise this if you get server errors mentioning "mod_fcgid:
+        # read data timeout in 40 seconds"
+        #FcgidIOTimeout 40
+
+        # Uncomment to log Abe requests.
+        #ErrorLog /var/log/abe_error.log
+        #LogLevel info
+        #CustomLog /var/log/abe_access.log combined
+    </VirtualHost>
+    ```
 Enable the new configuration:
 
     a2ensite abe
