@@ -18,8 +18,8 @@ from .X11Chain import X11Chain
 
 class Dash(X11Chain):
     def __init__(chain, **kwargs):
-        chain.name = 'Dash'
-        chain.code3 = 'DASH'
+        chain.name = 'Codemason'
+        chain.code3 = 'CMN'
         chain.address_version = '\x4c'
         chain.script_addr_vers = '\x10'
         chain.magic = '\xbf\x0c\x6b\xbd'
