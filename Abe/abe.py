@@ -39,7 +39,7 @@ import base58
 
 __version__ = version.__version__
 
-ABE_APPNAME = "Abe"
+ABE_APPNAME = "Codemason"
 ABE_VERSION = __version__
 ABE_URL = 'https://codemason.xyz'
 
@@ -292,7 +292,7 @@ class Abe:
         return getattr(abe, 'handle_' + cmd, None)
 
     def handle_chains(abe, page):
-        page['title'] = ABE_APPNAME + ' Search'
+        page['title'] = ABE_APPNAME + ' Blockchain Browser'
         body = page['body']
         body += [
             abe.search_form(page),
