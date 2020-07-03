@@ -49,7 +49,10 @@ COPYRIGHT_URL = 'https://codemason.xyz'
 
 DONATIONS_BTC = '3KoTunGhhM2vbj7AfHBvP8sviZJ1auk6ef'
 DONATIONS_NMC = 'NJ3MSELK1cWnqUa6xhF2wUYAnz3RSrWXcK'
-DONATIONS_DASH = 'XoB1cN9bhEwL6yQiAJ5ZnCJxQ7YxPoE94Z'
+# modify to Xfrgk3xkjrFGfdaCXKJYeDo3f44euNhkYA
+#DONATIONS_DASH = 'XoB1cN9bhEwL6yQiAJ5ZnCJxQ7YxPoE94Z'
+DONATIONS_DASH = 'Xfrgk3xkjrFGfdaCXKJYeDo3f44euNhkYA'
+# modify end
 
 TIME1970 = time.strptime('1970-01-01','%Y-%m-%d')
 EPOCH1970 = calendar.timegm(TIME1970)

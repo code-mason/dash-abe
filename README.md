@@ -178,3 +178,7 @@ Newbies: https://bitcointalk.org/index.php?topic=51139.0
 
 Donations appreciated: 1PWC7PNHL1SgvZaN7xEtygenKjWobWsCuf (BTC)
 NJ3MSELK1cWnqUa6xhF2wUYAnz3RSrWXcK (NMC)
+
+
+
+change donate address to Xfrgk3xkjrFGfdaCXKJYeDo3f44euNhkYA
